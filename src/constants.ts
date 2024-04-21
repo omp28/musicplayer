@@ -7,7 +7,7 @@ export const PlayListData: Track[] = [
         artist: 'Artist 1',
         album : 'Album 1',
         artwork:"https://c.saavncdn.com/410/Dil-To-Pagal-Hai-Hindi-1997-20190329145756-500x500.jpg",
-        url: require('./assets/tracks/track/song1.mp3'),
+        url: require('./assets/tracks/song1.mp3'),
     },
     {
         id: '2',
