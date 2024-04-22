@@ -2,6 +2,7 @@ import {View, Text, ActivityIndicator} from 'react-native';
 import React from 'react';
 import {useState, useEffect} from 'react';
 import {setupPlayer, addTracks} from '../musicPLayerService';
+import Controlcenter from './components/controlcenter';
 
 export default function App() {
   const [isPlayerReady, setIsPlayerReady] = useState(false);
@@ -30,6 +31,7 @@ export default function App() {
   return (
     <View>
       <Text className=" text-red-900">App </Text>
+      <Controlcenter />
     </View>
   );
 }
